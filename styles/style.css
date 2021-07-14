@@ -360,11 +360,13 @@ hr{
         /* highlights start  */
 
         .highlights{
+            width: 67%;
             margin: 0;
             flex-direction: column;
 
         }
         .highlights-text{
+            margin: 0 0 0 16px;
             width: 220px;
             height: 180px;
         }
@@ -375,6 +377,7 @@ hr{
             margin: 0;
         }
         .highlights-img{
+            margin: 0 0 0 13px;
             width: 220px;
             height: 240px;
         }
@@ -393,6 +396,69 @@ hr{
         }
         .coaches-box{
             grid-template-columns: repeat(1,1fr);
+        }
+
+        /* blog part  */
+        article{
+            width: 67%;
+        }
+        .blogs{
+            grid-template-columns: repeat(1,1fr);
+            width: 100%;
+        }
+        .blogs-part{
+            width: 100%;
+            justify-content: unset;
+            flex-direction: column;
+            align-items: unset;
+        }
+        .blog img{
+            width: 95%;
+        }
+
+        .blog-font{
+            font-size: 20px;
+        }
+        .blog{
+            width: 200px;
+            margin: 0 0 0 16px;
+        }
+        .article-title{
+            font-size: 18px;
+        }
+        .blog-btn{
+            padding: 0 5px;
+            font-size: 10px;
+        }
+        /* contact part  */
+        .contact{
+            width: 67%;
+        }
+        .contact-box{
+            width: 185px;
+            flex-direction: column;
+        }
+        .contact-img img{
+            width: 170px;
+            height: 200px;
+        }
+        form{
+            width: 170px;
+        }
+        .form-bar{
+            width: 170px;
+        }
+        /* footer part  */
+        footer{
+            width: 67%;
+        }
+        .footer-box{
+            width: 210px;
+            height: 200px;
+        }
+        .footer-logo-img{
+            width: 185px;
+            height: 180px;
         }
 
 
