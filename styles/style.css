@@ -98,7 +98,7 @@ nav{
      width: 100%;
  }
  .player-name{
-     font-weight: 700 !important; 
+     font-weight: 700 ; 
      font-size: 28px;
  }
 
@@ -300,98 +300,114 @@ hr{
  ------------------------------******************************************************************************************************/
 
  @media only screen and (max-width:688px) {
-    header{
-        width: auto;
-        height: 695px;
-        /* background-color: red; */
-    }
-    .nav-links{
-        display: none;
-    }
-    .navbar{
-        justify-content: flex-end;
-    }
-    .header-text-box,.header-img-box{
-        width: 330px;
-        height: 260px;
-    }
-    .header-img-box img{
-        width: 300px;
-        height: auto;
-    }
-    .header-text-img-box{
-        padding: 0;
-        margin: 16px;
-        flex-direction: column;
-    }
-    .header-text-font{
-        font-size: 36px;
-    }
-    /*
-     main part 
-    \ */
-    .players{
-        justify-content: center;
-        margin: 0 20px;
-    }
-    .player-cards{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .highlights{
-        width: 410px;
-        height: auto;
-        flex-direction: column;
-        margin: 40px 20px 20px 50px;
-    }
-    .highlights-text-font, .blog-font{
-        font-size: 30px;
-    }
-    .highlights-text{
-        width: 329px;
-        height: 299px;
-        margin: 0;
-    }
-    .highlights-img {
-        width: 330px;
-        height: auto;
-    }
+     header{
+         width: 67%;
+     }
+     .navbar{
+         width: 100%;
+         justify-content: flex-end;
+     }
+     .nav-links{
+         display: none;
+     }
 
-    .highlights-img img{
-        width: 328px;
-        height: 248px;
-    }
-    /*
-     coache part 
-     */
-     .coaches{
-         margin: 60px 30px;
-         align-items: center;
+     /* header 2d part  */
+     .header-text-img-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: unset;
+        padding: unset;}
+     .header-text-box{
+         width: 180px;
+         height: 300px;
      }
-     .coach-font{
-         font-size: 35px;
+     .header-text-font{
+         font-size: 28px;
      }
-     .coaches-box{
-        grid-template-columns: repeat(1,1fr);
-     }
-     /*
-      blog part 
-      */
-    article{
-        width: auto;
+
+     .header-img-box img{
+        width: 200px;
         height: auto;
-    }
-    .blogs-part{
-        margin: o;
-        justify-content: center;
-    }
-    .blogs{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .blog{
-        width: 300px;
-        height: auto;
-    }
-    .article-title{
-        font-size: 15px;
-    }
+        margin: 0 0 60px 0;}
+     
+        .buttons{
+            padding: 10px;
+            font-size: 11px;
+        }
+
+        /* main start  */
+        /* players  */
+        .players{
+            width: 67%;
+        }
+        .player-cards{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .player-card{
+            width: 190px;
+        }
+        .player-name{
+            font-weight: 700 ; 
+            font-size: 18px;
+        }
+        .player-info{
+            font-size: 8px;
+        }
+        /* palyers end  */
+
+        /* highlights start  */
+
+        .highlights{
+            margin: 0;
+            flex-direction: column;
+
+        }
+        .highlights-text{
+            width: 220px;
+            height: 180px;
+        }
+        .highlights-text-font{
+            font-size: 18px;
+        }
+        .button-box{
+            margin: 0;
+        }
+        .highlights-img{
+            width: 220px;
+            height: 240px;
+        }
+        /* coaches start  */
+        .coaches{
+            width: 67%;
+        }
+        .coach-font{
+            font-size: 22px;
+        }
+        .coach-card{
+            width: 190px;
+        }
+        .coach-card img{
+            width: 100%
+        }
+        .coaches-box{
+            grid-template-columns: repeat(1,1fr);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  }
