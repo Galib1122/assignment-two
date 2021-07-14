@@ -347,6 +347,7 @@ hr{
     }
      .header-text-font{
          font-size: 32px;
+         margin: 0 0 15px 0;
      }
 
      .header-img-box img{
