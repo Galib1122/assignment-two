@@ -377,7 +377,7 @@ hr{
             font-size: 28px;
         }
         .player-info{
-            font-size: 16px;
+            font-size: 15px;
         }
         /* palyers end  */
 
@@ -396,13 +396,13 @@ hr{
             height: 260px;
         }
         .highlights-text-font{
-            font-size: 18px;
+            font-size: 28px;
         }
         .button-box{
             margin: 0;
         }
         .highlights-img{
-            margin: 0 0 0 -20px;
+            margin: 15px 0 0 -20px;
             width: 285px;
             height: 240px;
         }
