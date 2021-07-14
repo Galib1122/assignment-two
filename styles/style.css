@@ -300,6 +300,14 @@ hr{
  ------------------------------******************************************************************************************************/
 
  @media only screen and (max-width:688px) {
+     *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     body{
+         overflow-x: hidden;
+     }
      header{
          width: 100%;
      }
@@ -319,10 +327,15 @@ hr{
         align-items: center;
         margin: unset;
         padding: unset;}
+
      .header-text-box{
-         width: 180px;
-         height: 300px;
+         width: 230px;
+         height: 270px;
      }
+     .header-img-box{
+        width: 230px;
+        height: 270px;
+    }
      .header-text-font{
          font-size: 28px;
      }
@@ -346,14 +359,14 @@ hr{
             grid-template-columns: repeat(1,1fr);
         }
         .player-card{
-            width: 190px;
+            width: 300px;
         }
         .player-name{
             font-weight: 700 ; 
-            font-size: 18px;
+            font-size: 28px;
         }
         .player-info{
-            font-size: 8px;
+            font-size: 16px;
         }
         /* palyers end  */
 
@@ -363,12 +376,13 @@ hr{
             width: 100%;
             margin: 0;
             flex-direction: column;
+            align-items: center;
 
         }
         .highlights-text{
             margin: 0 0 0 16px;
-            width: 220px;
-            height: 180px;
+            width: 320px;
+            height: 260px;
         }
         .highlights-text-font{
             font-size: 18px;
@@ -378,7 +392,7 @@ hr{
         }
         .highlights-img{
             margin: 0 0 0 13px;
-            width: 220px;
+            width: 320px;
             height: 240px;
         }
         /* coaches start  */
@@ -386,10 +400,11 @@ hr{
             width: 100%;
         }
         .coach-font{
-            font-size: 22px;
+            font-size: 28px;
+            margin: 80px 0 25px 0;
         }
         .coach-card{
-            width: 190px;
+            width: 260px;
         }
         .coach-card img{
             width: 100%
@@ -410,17 +425,19 @@ hr{
             width: 100%;
             justify-content: unset;
             flex-direction: column;
-            align-items: unset;
+            margin: 60px 0 80px 35px;
+
+
         }
         .blog img{
             width: 95%;
         }
 
         .blog-font{
-            font-size: 20px;
+            font-size: 30px;
         }
         .blog{
-            width: 200px;
+            width: 290px;
             margin: 0 0 0 16px;
         }
         .article-title{
@@ -428,25 +445,25 @@ hr{
         }
         .blog-btn{
             padding: 0 5px;
-            font-size: 10px;
+            font-size: 16px;
         }
         /* contact part  */
         .contact{
             width: 100%;
         }
         .contact-box{
-            width: 185px;
+            width: 315px;
             flex-direction: column;
         }
         .contact-img img{
-            width: 170px;
+            width: 210px;
             height: 200px;
         }
         form{
-            width: 170px;
+            width: 210px;
         }
         .form-bar{
-            width: 170px;
+            width: 200px;
         }
         /* footer part  */
         footer{
