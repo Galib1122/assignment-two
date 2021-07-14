@@ -301,7 +301,7 @@ hr{
 
  @media only screen and (max-width:688px) {
      header{
-         width: 67%;
+         width: 100%;
      }
      .navbar{
          width: 100%;
