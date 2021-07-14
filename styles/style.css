@@ -34,6 +34,9 @@ nav{
 .nav-links{
     padding: 10px;
 }
+.header-link:hover{
+    color: #E02C6D;
+}
 .header-link{
     text-decoration: none;
     color:  #FFFFFF;
@@ -67,6 +70,11 @@ nav{
 }
 .button-box{
     margin: 25px 0 0 0;
+}
+.header-img-box img:hover{
+    cursor: pointer;
+    transition: transform .3s ease-in;
+    transform: translate(30px,-30px);
 }
 .header-img-box img{
     width: 530px;
@@ -324,24 +332,26 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
-        margin: unset;
-        padding: unset;}
+        padding: unset;
+        align-items: flex-start;
+        margin: 0 0 0 45px
+}
 
      .header-text-box{
          width: 230px;
          height: 270px;
      }
      .header-img-box{
-        width: 230px;
+        width: 250px;
         height: 270px;
     }
      .header-text-font{
-         font-size: 28px;
+         font-size: 32px;
      }
 
      .header-img-box img{
-        width: 200px;
+         
+        width: 265px;
         height: auto;
         margin: 0 0 60px 0;}
      
